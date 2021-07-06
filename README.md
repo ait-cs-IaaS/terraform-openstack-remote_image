@@ -6,7 +6,7 @@ Creates a glance image based on a remote image file.
 
 ```
 terraform {
-    source = "git@git-service.ait.ac.at:sct-cyberrange/terraform-modules/openstack-remote_image.git"
+    source = "git@github.com:ait-cs-IaaS/terraform-openstack-remote_image.git"
 }
 
 inputs = {
